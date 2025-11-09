@@ -312,11 +312,9 @@ function getInitialLanguage() {
 
 let currentLang = getInitialLanguage();
 
-// Set initial language (only if document is ready)
-if (document.documentElement) {
-  document.documentElement.setAttribute('data-lang', currentLang);
-  document.documentElement.setAttribute('lang', currentLang);
-}
+// Set initial language
+document.documentElement.setAttribute('data-lang', currentLang);
+document.documentElement.setAttribute('lang', currentLang);
 
 // Clean up URL if lang parameter exists (safely)
 try {
@@ -332,26 +330,24 @@ try {
 
 // Apply translations to all elements with data-i18n attribute
 function applyTranslations(lang) {
-  // Show/hide language-specific content spans
-  document.querySelectorAll('[lang="en"]').forEach(el => {
-    el.hidden = (lang !== 'en');
-  });
-  document.querySelectorAll('[lang="fr"]').forEach(el => {
-    el.hidden = (lang !== 'fr');
-  });
-
-  // Update placeholders
+  // Update all elements with data-i18n attribute
   const elements = document.querySelectorAll('[data-i18n]');
   elements.forEach(element => {
     const key = element.getAttribute('data-i18n');
+
     if (translations[lang] && translations[lang][key]) {
+      // Handle placeholder attributes
       if (element.hasAttribute('data-i18n-placeholder')) {
         element.setAttribute('placeholder', translations[lang][key]);
+      }
+      // Handle text content for most elements
+      else if (element.tagName !== 'SELECT') {
+        element.textContent = translations[lang][key];
       }
     }
   });
 
-  // Update select options
+  // Update select options separately
   const selectOptions = document.querySelectorAll('option[data-i18n]');
   selectOptions.forEach(option => {
     const key = option.getAttribute('data-i18n');
@@ -380,8 +376,8 @@ function switchLanguage(lang) {
   }
 }
 
-// Initialize on DOM load
-document.addEventListener('DOMContentLoaded', () => {
+// Function to initialize translations and event listeners
+function initializeI18n() {
   applyTranslations(currentLang);
 
   // Add event listeners to language buttons
@@ -390,7 +386,15 @@ document.addEventListener('DOMContentLoaded', () => {
       switchLanguage(btn.getAttribute('data-lang'));
     });
   });
-});
+}
+
+// Initialize on DOM load
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeI18n);
+} else {
+  // DOM is already loaded, initialize immediately
+  initializeI18n();
+}
 
 // Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
