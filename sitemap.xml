@@ -2,24 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Homepage - English -->
+  <!-- Homepage - Bilingual (auto-detects browser language) -->
   <url>
     <loc>https://vuedo.app/</loc>
     <lastmod>2025-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://vuedo.app/fr" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://vuedo.app/" />
-  </url>
-
-  <!-- Homepage - French -->
-  <url>
-    <loc>https://vuedo.app/fr</loc>
-    <lastmod>2025-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vuedo.app/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://vuedo.app/fr" />
   </url>
 
   <!-- Features Section -->

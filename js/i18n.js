@@ -281,12 +281,47 @@ const translations = {
   }
 };
 
-// Get current language from localStorage or default to 'en'
-let currentLang = localStorage.getItem('vuedo-lang') || 'en';
+// Detect browser language
+function getBrowserLanguage() {
+  const browserLang = navigator.language || navigator.userLanguage;
+  // Check if browser language is French
+  if (browserLang && browserLang.toLowerCase().startsWith('fr')) {
+    return 'fr';
+  }
+  return 'en'; // Default to English for all other languages
+}
+
+// Get current language from localStorage, URL parameter, or browser language
+function getInitialLanguage() {
+  // Check URL parameter first (for /fr/ redirects)
+  const urlParams = new URLSearchParams(window.location.search);
+  const urlLang = urlParams.get('lang');
+  if (urlLang === 'fr' || urlLang === 'en') {
+    return urlLang;
+  }
+
+  // Check localStorage
+  const storedLang = localStorage.getItem('vuedo-lang');
+  if (storedLang === 'fr' || storedLang === 'en') {
+    return storedLang;
+  }
+
+  // Fallback to browser language
+  return getBrowserLanguage();
+}
+
+let currentLang = getInitialLanguage();
 
 // Set initial language
 document.documentElement.setAttribute('data-lang', currentLang);
 document.documentElement.setAttribute('lang', currentLang);
+
+// Clean up URL if lang parameter exists
+if (window.location.search.includes('lang=')) {
+  const url = new URL(window.location);
+  url.searchParams.delete('lang');
+  window.history.replaceState({}, '', url);
+}
 
 // Apply translations to all elements with data-i18n attribute
 function applyTranslations(lang) {
