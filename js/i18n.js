@@ -14,7 +14,7 @@ const translations = {
     'nav-features': 'Features',
     'nav-showcase': 'See It In Action',
     'nav-benefits': 'Benefits',
-    'nav-evidence': 'The Science',
+    'nav-evidence': 'Evidence-Based',
     'nav-waitlist': 'Join Waitlist',
     'skip-to-content': 'Skip to main content',
 
@@ -66,9 +66,9 @@ const translations = {
     'feature-6-meta': 'Same routine, every caregiver',
 
     // Showcase Section
-    'showcase-title': 'Visual Routines in Action',
-    'showcase-description': 'See how Vue&Do creates context-aware visual schedules. Each routine adapts to real-world conditions and provides positive visual feedback when steps are completed.',
-    'showcase-callout': 'These comic panels are personalized with AI-generated avatars in your chosen visual style',
+    'showcase-title': 'See the Magic in Action',
+    'showcase-description': 'Real examples of how Vue&Do adapts to your child\'s world. Watch routines transform with a touch while context brings each scene to life.',
+    'showcase-callout': 'These panels are AI-generated in real-time with your child\'s face and your chosen style',
 
     // Context Badges
     'context-rainy': 'Rainy Morning',
@@ -103,8 +103,8 @@ const translations = {
     'showcase-breakfast-caption': 'Morning routine step with school day context (backpack, sunny weather)',
 
     // Evidence Section
-    'evidence-title': 'Built on 25+ Years of Neuroscience Research',
-    'evidence-description': 'Vue&Do is grounded in evidence-based practices for visual supports and activity schedules, validated by decades of research with neurodiverse learners.',
+    'evidence-title': 'Backed by Research & Expertise',
+    'evidence-description': 'Vue&Do is built on decades of evidence-based practices in visual supports and activity schedules for neuro-diverse learners.',
     'stat-research-value': '25+',
     'stat-research-label': 'Years of Research',
     'stat-studies-value': '15+',
@@ -150,17 +150,17 @@ const translations = {
 
     // How It Works
     'how-it-works-title': 'Get Started in 3 Simple Steps',
-    'how-it-works-description': 'From signup to personalized visual routines in minutes.',
+    'how-it-works-description': 'From signup to superhero routines in under 5 minutes. Seriously, it\'s that fast.',
     'timeline-badge': 'Beta launching Q2 2025',
     'step1-title': 'Sign Up & Create Your Household',
     'step1-description': 'Join with a magic link (no password needed). Add family members, upload optional photos, and choose your preferred comic style. Our AI generates unique avatars in seconds.',
     'step1-highlight': 'Takes less than 2 minutes',
     'step2-title': 'Build Your First Routine',
-    'step2-description': 'Drag and drop from 30+ pre-built steps like "brush teeth," "get dressed," "breakfast time." Customize icons, add timers, and preview your visual schedule in real-time.',
+    'step2-description': 'Drag and drop from 30+ pre-built steps like "brush teeth," "get dressed," "breakfast time." Customize icons, add timers, and preview your comic strip in real-time.',
     'step2-highlight': '30+ built-in routine steps ready to use',
-    'step3-title': 'Use the Visual Schedule Daily',
-    'step3-description': 'Your child follows the routine step-by-step in fullscreen kiosk mode. Each completed step triggers visual celebration (stars, confetti, sparkles). Context adapts automatically to weather, time, and daily events.',
-    'step3-highlight': 'Evidence-based positive reinforcement with context awareness',
+    'step3-title': 'Touch, Transform, Celebrate',
+    'step3-description': 'Your child touches each comic panel and watches it magically transform. When they complete the step, visual rewards appear - stars burst, confetti falls, sparkles dance. This positive reinforcement creates joyful associations with daily routines.',
+    'step3-highlight': 'Evidence-based positive reinforcement through visual celebration',
 
     // Waitlist Section
     'waitlist-title': 'Join Our Beta Waitlist',
@@ -212,7 +212,7 @@ const translations = {
     'nav-features': 'Fonctionnalités',
     'nav-showcase': 'Voir en action',
     'nav-benefits': 'Avantages',
-    'nav-evidence': 'La Science',
+    'nav-evidence': 'Validé scientifiquement',
     'nav-waitlist': 'Liste d\'attente',
     'skip-to-content': 'Aller au contenu principal',
 
@@ -264,9 +264,9 @@ const translations = {
     'feature-6-meta': 'Même routine, chaque aidant',
 
     // Showcase Section
-    'showcase-title': 'Routines visuelles en action',
-    'showcase-description': 'Voyez comment Vue&Do crée des emplois du temps visuels contextuels. Chaque routine s\'adapte aux conditions réelles et fournit un feedback visuel positif quand les étapes sont complétées.',
-    'showcase-callout': 'Ces vignettes BD sont personnalisées avec des avatars IA dans votre style visuel choisi',
+    'showcase-title': 'Voyez la magie en action',
+    'showcase-description': 'Exemples réels de comment Vue&Do s\'adapte au monde de votre enfant. Regardez les routines se transformer au toucher pendant que le contexte donne vie à chaque scène.',
+    'showcase-callout': 'Ces vignettes sont générées par IA en temps réel avec le visage de votre enfant et votre style choisi',
 
     // Context Badges
     'context-rainy': 'Matin pluvieux',
@@ -301,8 +301,8 @@ const translations = {
     'showcase-breakfast-caption': 'Étape de routine matinale avec contexte jour d\'école (cartable, météo ensoleillée)',
 
     // Evidence Section
-    'evidence-title': 'Basé sur 25+ ans de recherche en neurosciences',
-    'evidence-description': 'Vue&Do est ancré dans des pratiques validées scientifiquement pour les supports visuels et emplois du temps d\'activités, validées par des décennies de recherche avec des apprenants neurodivers.',
+    'evidence-title': 'Soutenu par la recherche et l\'expertise',
+    'evidence-description': 'Vue&Do est construit sur des décennies de pratiques validées scientifiquement en supports visuels et emplois du temps d\'activités pour apprenants neurodivers.',
     'stat-research-value': '25+',
     'stat-research-label': 'Années de recherche',
     'stat-studies-value': '15+',
@@ -348,17 +348,17 @@ const translations = {
 
     // How It Works
     'how-it-works-title': 'Démarrez en 3 étapes simples',
-    'how-it-works-description': 'De l\'inscription aux routines visuelles personnalisées en quelques minutes.',
+    'how-it-works-description': 'De l\'inscription aux routines super-héros en moins de 5 minutes. Sérieusement, c\'est aussi rapide.',
     'timeline-badge': 'Bêta en Q2 2025',
     'step1-title': 'Inscrivez-vous & créez votre foyer',
     'step1-description': 'Rejoignez avec un lien magique (pas de mot de passe requis). Ajoutez les membres de la famille, uploadez des photos optionnelles, et choisissez votre style BD préféré. Notre IA génère des avatars uniques en quelques secondes.',
     'step1-highlight': 'Prend moins de 2 minutes',
     'step2-title': 'Construisez votre première routine',
-    'step2-description': 'Glissez-déposez parmi 30+ étapes pré-construites comme "se brosser les dents", "s\'habiller", "petit-déjeuner". Personnalisez icônes, ajoutez minuteurs, et prévisualisez votre emploi du temps visuel en temps réel.',
+    'step2-description': 'Glissez-déposez parmi 30+ étapes pré-construites comme "se brosser les dents", "s\'habiller", "petit-déjeuner". Personnalisez icônes, ajoutez minuteurs, et prévisualisez votre BD en temps réel.',
     'step2-highlight': '30+ étapes de routine prêtes à utiliser',
-    'step3-title': 'Utilisez l\'emploi du temps visuel quotidiennement',
-    'step3-description': 'Votre enfant suit la routine étape par étape en mode kiosque plein écran. Chaque étape complétée déclenche une célébration visuelle (étoiles, confettis, étincelles). Le contexte s\'adapte automatiquement à la météo, l\'heure et aux événements quotidiens.',
-    'step3-highlight': 'Renforcement positif validé scientifiquement avec conscience contextuelle',
+    'step3-title': 'Toucher, transformer, célébrer',
+    'step3-description': 'Votre enfant touche chaque vignette BD et la regarde se transformer magiquement. Quand il complète l\'étape, des récompenses visuelles apparaissent - les étoiles éclatent, les confettis tombent, les étincelles dansent. Ce renforcement positif crée des associations joyeuses avec les routines quotidiennes.',
+    'step3-highlight': 'Renforcement positif validé scientifiquement par célébration visuelle',
 
     // Waitlist Section
     'waitlist-title': 'Rejoignez notre liste d\'attente bêta',
