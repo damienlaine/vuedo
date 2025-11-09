@@ -8,109 +8,109 @@ const translations = {
     // Navigation
     'nav-features': 'Features',
     'nav-benefits': 'Benefits',
-    'nav-evidence': 'Evidence-Based',
+    'nav-evidence': 'The Science',
     'nav-waitlist': 'Join Waitlist',
     'skip-to-content': 'Skip to main content',
 
     // Hero Section
-    'hero-title': 'Transform Daily Routines into Personalized Visual Stories',
-    'hero-subtitle': 'Evidence-based visual schedules designed for neuro-diverse children. Turn household tasks into engaging comic strips with AI-powered personalization.',
+    'hero-title': 'Turn Everyday Routines into Epic Comic Adventures',
+    'hero-subtitle': 'AI-powered comic strips that make daily tasks actually fun. Your child becomes the superhero of their own story, completing quests from brushing teeth to bedtime.',
     'cta-join-waitlist': 'Join the Waitlist',
-    'cta-learn-more': 'Learn More',
-    'badge-evidence': 'Evidence-Based Approach',
-    'badge-privacy': 'Privacy-First Design',
-    'badge-inclusive': 'Neuro-Inclusive',
+    'cta-learn-more': 'See the Magic',
+    'badge-evidence': 'Backed by Science',
+    'badge-privacy': 'Privacy-First',
+    'badge-inclusive': 'Designed for Every Kid',
 
     // Problem/Solution Section
-    'problem-title': 'Daily Routines Don\'t Have to Be Stressful',
-    'problem-description': 'For many neuro-diverse children, transitions and daily tasks can be overwhelming. Visual supports have been proven to reduce anxiety, improve independence, and create predictable, comfortable routines.',
-    'solution-predictable-title': 'Predictable & Visual',
-    'solution-predictable-text': 'Clear visual schedules help children know what to expect, reducing anxiety around transitions and new activities.',
-    'solution-engaging-title': 'Engaging & Personalized',
-    'solution-engaging-text': 'AI-generated comic strips featuring your child\'s avatar make routines fun and relatable, increasing motivation and participation.',
-    'solution-independent-title': 'Builds Independence',
-    'solution-independent-text': 'Step-by-step visual guidance empowers children to complete tasks independently, building confidence and life skills.',
+    'problem-title': 'Make Mornings Actually Fun (Yes, Really!)',
+    'problem-description': 'Every family knows the struggle: transitions are hard, routines feel boring, and kids need constant reminders. What if daily tasks were as exciting as their favorite comic books? That is exactly what we have built.',
+    'solution-predictable-title': 'Visual & Exciting',
+    'solution-predictable-text': 'See what is next in vibrant comic panels. No more "what do I do now?" - just clear, colorful step-by-step adventures that kids actually want to follow.',
+    'solution-engaging-title': 'AI-Personalized Magic',
+    'solution-engaging-text': 'This is not generic cartoons - our AI creates custom comic strips starring YOUR child. Choose from manga to superhero styles and watch their face light up seeing themselves as the main character.',
+    'solution-independent-title': 'Independence, Unlocked',
+    'solution-independent-text': 'Kids love doing things themselves when it is fun. Visual quests with celebration rewards turn "I can not" into "I did it!" moments that build real confidence.',
 
     // Features Section
-    'features-title': 'Designed for Neuro-Diverse Needs',
-    'features-description': 'Every feature is carefully crafted with input from research, families, and professionals working with neuro-diverse children.',
-    'feature-ai-title': 'AI-Powered Personalization',
-    'feature-ai-description': 'Transform everyday activities into custom comic strips featuring your child\'s avatar. Choose your preferred visual style and watch routines come to life in a format your child connects with.',
-    'feature-kiosk-title': 'Focused Kiosk Mode',
-    'feature-kiosk-description': 'Fullscreen, distraction-free interface designed for children. Large buttons, clear visual feedback, and simple gestures make interaction intuitive and stress-free.',
-    'feature-visual-title': 'Visual Timers & Rewards',
-    'feature-visual-description': 'Clear visual timers help children understand time passing. Celebrate each completed step with engaging visual rewards like confetti and sparkles to reinforce positive behavior.',
-    'feature-offline-title': 'Works Offline',
-    'feature-offline-description': 'Once routines are created, they work perfectly offline. No internet needed for daily use, ensuring consistent access without connectivity concerns.',
-    'feature-privacy-title': 'Privacy-First Design',
-    'feature-privacy-description': 'Your child\'s photos are never stored. We only keep the AI-generated avatars and style preferences. Full GDPR compliance with transparent data practices and parental controls.',
-    'feature-accessible-title': 'Neuro-Inclusive Interface',
-    'feature-accessible-description': 'Designed following WCAG 2.1 AA standards with high contrast, clear typography, error-tolerant interactions, and no audio elements that could be overwhelming.',
+    'features-title': 'Next-Level Routine Technology',
+    'features-description': 'We have combined cutting-edge AI, game design principles, and insights from families to create something totally new.',
+    'feature-ai-title': 'AI-Powered Comic Generation',
+    'feature-ai-description': 'Upload a photo, choose your style (manga, superhero, cartoon, or classic BD), and boom - personalized comic strips featuring your child as the star. Every routine becomes a visual story they will love.',
+    'feature-kiosk-title': 'Immersive Kiosk Mode',
+    'feature-kiosk-description': 'Fullscreen, distraction-free magic. Huge, satisfying buttons. Visual feedback that pops. Simple gestures. Your child gets lost in their routine adventure, not their device.',
+    'feature-visual-title': 'Gamified Rewards & Timers',
+    'feature-visual-description': 'Visual timers make time visible (no more "5 more minutes!"). Each completed step triggers celebratory animations - confetti explosions, sparkle showers, victory stars. Positive reinforcement that actually works.',
+    'feature-offline-title': 'Offline-First PWA',
+    'feature-offline-description': 'Once created, routines work perfectly offline. No Wi-Fi? No problem. Airplane mode? Still magical. Consistent access anywhere, anytime, without internet anxiety.',
+    'feature-privacy-title': 'Zero-Photo Storage',
+    'feature-privacy-description': 'We delete uploaded photos immediately after generating avatars. Only AI-created characters stay on our servers. Full GDPR compliance, transparent data practices, total parental control. Privacy is not optional.',
+    'feature-accessible-title': 'Inclusive by Design',
+    'feature-accessible-description': 'WCAG 2.1 AA compliant with high contrast, XXL touch targets, error-tolerant interactions, and zero audio distractions. Works beautifully for neurotypical kids AND those with ADHD, autism, dyslexia - everyone wins.',
 
     // Evidence Section
-    'evidence-title': 'Backed by Research & Expertise',
-    'evidence-description': 'Vue&Do is built on decades of evidence-based practices in visual supports and activity schedules for neuro-diverse learners.',
+    'evidence-title': 'Backed by Science, Powered by Imagination',
+    'evidence-description': 'This is not just a fun app - it is built on 25+ years of research showing visual supports work. We just made them way more exciting.',
     'stat-research-value': '25+',
     'stat-research-label': 'Years of Research',
     'stat-studies-value': '15+',
     'stat-studies-label': 'Peer-Reviewed Studies',
     'stat-frameworks-value': '3',
-    'stat-frameworks-label': 'Evidence-Based Frameworks',
-    'evidence-research-subtitle': 'What the Research Shows',
-    'evidence-list-1': 'Visual schedules significantly improve task completion and reduce problem behaviors in children with autism spectrum disorder (SAGE, 2024)',
-    'evidence-list-2': 'Digital activity schedules show promising results for increasing independence in daily living activities (PubMed, 2025)',
-    'evidence-list-3': 'Visual supports recommended by HAS (Haute Autorité de Santé) and TEACCH methodology for autism support',
-    'evidence-list-4': 'Personalized visual supports increase engagement and on-task behavior in educational and home settings',
-    'evidence-frameworks-subtitle': 'Built on Proven Frameworks',
+    'stat-frameworks-label': 'Proven Methodologies',
+    'evidence-research-subtitle': 'The Science Behind the Fun',
+    'evidence-list-1': 'Visual schedules dramatically improve task completion and reduce challenging behaviors (SAGE, 2024) - we made them irresistibly engaging',
+    'evidence-list-2': 'Digital activity schedules increase independence in daily routines (PubMed, 2025) - our AI personalization takes it to the next level',
+    'evidence-list-3': 'Visual supports recommended by health authorities (HAS) and TEACCH methodology - especially powerful for kids with ADHD and autism',
+    'evidence-list-4': 'Personalized visuals boost engagement and on-task behavior across all learning environments - and they work for ALL kids, not just some',
+    'evidence-frameworks-subtitle': 'Built on Proven Foundations',
     'framework-teacch': 'TEACCH',
-    'framework-teacch-desc': 'Structured teaching approach',
+    'framework-teacch-desc': 'Structured visual teaching',
     'framework-has': 'HAS Guidelines',
-    'framework-has-desc': 'French health authority standards',
+    'framework-has-desc': 'Evidence-based standards',
     'framework-aba': 'ABA Principles',
-    'framework-aba-desc': 'Applied behavior analysis',
+    'framework-aba-desc': 'Positive reinforcement',
 
     // Benefits Section
-    'benefits-title': 'Benefits for the Whole Family',
-    'benefit-children-title': 'For Children',
-    'benefit-children-1': 'Reduced anxiety around daily transitions',
-    'benefit-children-2': 'Increased independence and confidence',
-    'benefit-children-3': 'Fun, engaging way to learn routines',
-    'benefit-children-4': 'Clear expectations reduce frustration',
-    'benefit-parents-title': 'For Parents & Caregivers',
-    'benefit-parents-1': 'Smoother morning and bedtime routines',
-    'benefit-parents-2': 'Less stress during transitions',
-    'benefit-parents-3': 'Easy to create and customize routines',
-    'benefit-parents-4': 'Consistent approach across caregivers',
-    'benefit-professionals-title': 'For Professionals',
-    'benefit-professionals-1': 'Evidence-based intervention tool',
-    'benefit-professionals-2': 'Consistent support across settings',
-    'benefit-professionals-3': 'Collaborative family engagement',
-    'benefit-professionals-4': 'Track progress and adaptation',
-    'benefit-household-title': 'For the Household',
-    'benefit-household-1': 'More peaceful daily rhythms',
-    'benefit-household-2': 'Better time management',
-    'benefit-household-3': 'Reduced conflict and meltdowns',
-    'benefit-household-4': 'Celebrate small wins together',
+    'benefits-title': 'Why Families Love Vue&Do',
+    'benefit-children-title': 'Kids',
+    'benefit-children-1': 'Routines become adventures, not chores',
+    'benefit-children-2': 'Build independence with visual quests',
+    'benefit-children-3': 'See themselves as capable superheroes',
+    'benefit-children-4': 'Celebrate wins with epic animations',
+    'benefit-parents-title': 'Parents & Caregivers',
+    'benefit-parents-1': 'Mornings and bedtimes without the battles',
+    'benefit-parents-2': 'Less nagging, more cooperation',
+    'benefit-parents-3': 'Create custom routines in minutes',
+    'benefit-parents-4': 'Everyone on the same page, every time',
+    'benefit-professionals-title': 'Therapists & Educators',
+    'benefit-professionals-1': 'Evidence-based tool that kids love',
+    'benefit-professionals-2': 'Consistent support across environments',
+    'benefit-professionals-3': 'Engage families in interventions',
+    'benefit-professionals-4': 'Track progress with visual data',
+    'benefit-household-title': 'The Whole Family',
+    'benefit-household-1': 'Peaceful mornings become the norm',
+    'benefit-household-2': 'Time for what matters most',
+    'benefit-household-3': 'Replace conflicts with celebrations',
+    'benefit-household-4': 'Make every small win visible',
 
     // How It Works
-    'how-it-works-title': 'How Vue&Do Works',
-    'how-it-works-description': 'Getting started with Vue&Do is simple. Create personalized routines in minutes.',
-    'step1-title': 'Create Your Household',
-    'step1-description': 'Add family members, caregivers, and professionals. Optionally upload photos to generate personalized avatars in your preferred comic style.',
-    'step2-title': 'Build Visual Routines',
-    'step2-description': 'Choose from templates or create custom routines. Add steps with clear icons, labels, and optional timers. Each step becomes a panel in the daily comic strip.',
-    'step3-title': 'Child Uses Kiosk Mode',
-    'step3-description': 'Your child follows the routine in a simple, fullscreen interface. Large "Doing" and "Done" buttons with visual rewards celebrate each completed step.',
-    'step4-title': 'Celebrate & Build Skills',
-    'step4-description': 'Watch as your child gains confidence and independence. Adjust routines as needed and celebrate progress together with engaging visual feedback.',
+    'how-it-works-title': 'From Setup to Superhero in Minutes',
+    'how-it-works-description': 'Creating personalized routine adventures is ridiculously easy.',
+    'step1-title': 'Create Your Family Universe',
+    'step1-description': 'Add family members and optionally upload photos. Our AI generates comic-style avatars in your chosen style - manga, superhero, cartoon, or classic BD. Each character is uniquely yours.',
+    'step2-title': 'Build Epic Routine Quests',
+    'step2-description': 'Choose templates or go custom. Drag-and-drop routine steps, add icons and timers. Each step becomes a comic panel in your child\'s daily adventure strip.',
+    'step3-title': 'Launch Kiosk Mode',
+    'step3-description': 'Your child enters their fullscreen adventure. Giant "Doing" and "Done" buttons. Confetti explosions for every win. Simple, satisfying, and seriously fun.',
+    'step4-title': 'Celebrate & Evolve',
+    'step4-description': 'Watch independence grow with every completed quest. Adjust routines as skills develop. Make every small victory feel like defeating the final boss.',
 
     // Waitlist Section
-    'waitlist-title': 'Join Our Beta Waitlist',
-    'waitlist-description': 'Be among the first to experience Vue&Do when we launch. Get early access, exclusive updates, and help shape the future of neuro-inclusive visual routines.',
-    'waitlist-benefit-1': 'Early access to beta version',
-    'waitlist-benefit-2': 'Exclusive pricing for early adopters',
-    'waitlist-benefit-3': 'Direct input on features and design',
-    'waitlist-benefit-4': 'Priority support from our team',
+    'waitlist-title': 'Join the Beta Adventure',
+    'waitlist-description': 'Be among the first families to experience Vue&Do. Get early access, special pricing, and help us build the future of fun routines.',
+    'waitlist-benefit-1': 'Early access to beta (launching soon!)',
+    'waitlist-benefit-2': 'Special pricing for founding families',
+    'waitlist-benefit-3': 'Shape features with direct feedback',
+    'waitlist-benefit-4': 'VIP support from our team',
     'form-name-label': 'Name',
     'form-name-placeholder': 'Your name',
     'form-email-label': 'Email',
@@ -125,11 +125,11 @@ const translations = {
     'form-submit': 'Join Waitlist',
 
     // Footer
-    'footer-description': 'Transforming daily routines into personalized visual stories for neuro-diverse children.',
+    'footer-description': 'Turning daily routines into epic comic adventures with AI-powered personalization.',
     'footer-product': 'Product',
     'footer-features': 'Features',
     'footer-benefits': 'Benefits',
-    'footer-research': 'Research',
+    'footer-research': 'The Science',
     'footer-how': 'How It Works',
     'footer-legal': 'Legal',
     'footer-privacy': 'Privacy Policy',
@@ -139,116 +139,116 @@ const translations = {
     'footer-contact': 'Contact',
     'footer-waitlist': 'Join Waitlist',
     'footer-copyright': '2025 Vue&Do. All rights reserved.',
-    'footer-tagline': 'Made with care for neuro-diverse families'
+    'footer-tagline': 'Making routines fun for every family'
   },
 
   fr: {
     // Navigation
     'nav-features': 'Fonctionnalités',
     'nav-benefits': 'Avantages',
-    'nav-evidence': 'Fondé sur les preuves',
+    'nav-evidence': 'La Science',
     'nav-waitlist': 'Liste d\'attente',
     'skip-to-content': 'Aller au contenu principal',
 
     // Hero Section
-    'hero-title': 'Transformez les routines quotidiennes en histoires visuelles personnalisées',
-    'hero-subtitle': 'Emplois du temps visuels fondés sur des preuves, conçus pour les enfants neuro-atypiques. Transformez les tâches quotidiennes en bandes dessinées engageantes avec personnalisation IA.',
+    'hero-title': 'Transformez les routines en aventures BD épiques',
+    'hero-subtitle': 'Des bandes dessinées personnalisées par IA qui rendent les tâches quotidiennes vraiment fun. Votre enfant devient le super-héros de sa propre histoire, du brossage des dents au coucher.',
     'cta-join-waitlist': 'Rejoindre la liste d\'attente',
-    'cta-learn-more': 'En savoir plus',
-    'badge-evidence': 'Approche fondée sur les preuves',
-    'badge-privacy': 'Conception respectueuse de la vie privée',
-    'badge-inclusive': 'Neuro-inclusif',
+    'cta-learn-more': 'Voir la magie',
+    'badge-evidence': 'Basé sur la science',
+    'badge-privacy': 'Vie privée d\'abord',
+    'badge-inclusive': 'Pour tous les enfants',
 
     // Problem/Solution Section
-    'problem-title': 'Les routines quotidiennes ne doivent pas être stressantes',
-    'problem-description': 'Pour de nombreux enfants neuro-atypiques, les transitions et les tâches quotidiennes peuvent être accablantes. Les supports visuels ont fait leurs preuves pour réduire l\'anxiété, améliorer l\'autonomie et créer des routines prévisibles et confortables.',
-    'solution-predictable-title': 'Prévisible et visuel',
-    'solution-predictable-text': 'Des emplois du temps visuels clairs aident les enfants à savoir à quoi s\'attendre, réduisant l\'anxiété liée aux transitions et aux nouvelles activités.',
-    'solution-engaging-title': 'Engageant et personnalisé',
-    'solution-engaging-text': 'Des bandes dessinées générées par IA mettant en vedette l\'avatar de votre enfant rendent les routines amusantes et pertinentes, augmentant la motivation et la participation.',
-    'solution-independent-title': 'Développe l\'autonomie',
-    'solution-independent-text': 'Des guidances visuelles étape par étape permettent aux enfants de réaliser des tâches de manière autonome, renforçant la confiance et les compétences de vie.',
+    'problem-title': 'Rendez les matins vraiment fun (oui, vraiment !)',
+    'problem-description': 'Toutes les familles connaissent le défi : les transitions sont difficiles, les routines sont ennuyeuses, et les enfants ont besoin de rappels constants. Et si les tâches quotidiennes étaient aussi excitantes que leurs BD préférées ? C\'est exactement ce qu\'on a créé.',
+    'solution-predictable-title': 'Visuel & Excitant',
+    'solution-predictable-text': 'Voir ce qui vient ensuite en vignettes BD colorées. Fini le "c\'est quoi après ?" - juste des aventures étape par étape claires et colorées que les enfants veulent suivre.',
+    'solution-engaging-title': 'Magie personnalisée par IA',
+    'solution-engaging-text': 'Ce ne sont pas des dessins génériques - notre IA crée des bandes dessinées sur mesure avec VOTRE enfant en vedette. Choisissez du manga au style super-héros et regardez son visage s\'illuminer en se voyant personnage principal.',
+    'solution-independent-title': 'Autonomie débloquée',
+    'solution-independent-text': 'Les enfants adorent faire les choses eux-mêmes quand c\'est amusant. Des quêtes visuelles avec des récompenses festives transforment "je peux pas" en moments "j\'ai réussi !" qui bâtissent la vraie confiance.',
 
     // Features Section
-    'features-title': 'Conçu pour les besoins neuro-atypiques',
-    'features-description': 'Chaque fonctionnalité est soigneusement conçue avec les contributions de la recherche, des familles et des professionnels travaillant avec des enfants neuro-atypiques.',
-    'feature-ai-title': 'Personnalisation par IA',
-    'feature-ai-description': 'Transformez les activités quotidiennes en bandes dessinées personnalisées mettant en vedette l\'avatar de votre enfant. Choisissez votre style visuel préféré et regardez les routines prendre vie dans un format auquel votre enfant s\'identifie.',
-    'feature-kiosk-title': 'Mode kiosque concentré',
-    'feature-kiosk-description': 'Interface plein écran sans distraction conçue pour les enfants. De grands boutons, un retour visuel clair et des gestes simples rendent l\'interaction intuitive et sans stress.',
-    'feature-visual-title': 'Minuteurs visuels et récompenses',
-    'feature-visual-description': 'Des minuteurs visuels clairs aident les enfants à comprendre le passage du temps. Célébrez chaque étape accomplie avec des récompenses visuelles engageantes comme des confettis et des étincelles pour renforcer les comportements positifs.',
-    'feature-offline-title': 'Fonctionne hors ligne',
-    'feature-offline-description': 'Une fois les routines créées, elles fonctionnent parfaitement hors ligne. Pas besoin d\'Internet pour une utilisation quotidienne, garantissant un accès constant sans soucis de connectivité.',
-    'feature-privacy-title': 'Conception respectueuse de la vie privée',
-    'feature-privacy-description': 'Les photos de votre enfant ne sont jamais stockées. Nous ne conservons que les avatars générés par IA et les préférences de style. Conformité totale au RGPD avec des pratiques de données transparentes et des contrôles parentaux.',
-    'feature-accessible-title': 'Interface neuro-inclusive',
-    'feature-accessible-description': 'Conçu selon les normes WCAG 2.1 AA avec contraste élevé, typographie claire, interactions tolérantes aux erreurs et aucun élément audio pouvant être accablant.',
+    'features-title': 'Technologie de routines nouvelle génération',
+    'features-description': 'On a combiné IA de pointe, principes de game design et insights des familles pour créer quelque chose de totalement nouveau.',
+    'feature-ai-title': 'Génération BD par IA',
+    'feature-ai-description': 'Uploadez une photo, choisissez votre style (manga, super-héros, cartoon ou BD classique), et boom - des bandes dessinées personnalisées avec votre enfant en vedette. Chaque routine devient une histoire visuelle qu\'ils vont adorer.',
+    'feature-kiosk-title': 'Mode kiosque immersif',
+    'feature-kiosk-description': 'Magie plein écran sans distraction. Boutons énormes et satisfaisants. Feedback visuel qui claque. Gestes simples. Votre enfant se perd dans son aventure de routine, pas dans son appareil.',
+    'feature-visual-title': 'Récompenses & minuteurs gamifiés',
+    'feature-visual-description': 'Les minuteurs visuels rendent le temps visible (fini "encore 5 minutes !"). Chaque étape complétée déclenche des animations festives - explosions de confettis, pluies d\'étincelles, étoiles de victoire. Renforcement positif qui marche vraiment.',
+    'feature-offline-title': 'PWA hors ligne',
+    'feature-offline-description': 'Une fois créées, les routines marchent parfaitement hors ligne. Pas de Wi-Fi ? Pas de problème. Mode avion ? Toujours magique. Accès constant n\'importe où, n\'importe quand, sans stress Internet.',
+    'feature-privacy-title': 'Zéro stockage photos',
+    'feature-privacy-description': 'On supprime les photos uploadées immédiatement après génération des avatars. Seuls les personnages créés par IA restent sur nos serveurs. Conformité RGPD totale, pratiques transparentes, contrôle parental total. La vie privée n\'est pas optionnelle.',
+    'feature-accessible-title': 'Inclusif par design',
+    'feature-accessible-description': 'Conforme WCAG 2.1 AA avec contraste élevé, cibles tactiles XXL, interactions tolérantes aux erreurs, et zéro distraction audio. Fonctionne à merveille pour les enfants neurotypiques ET ceux avec TDAH, autisme, dyslexie - tout le monde gagne.',
 
     // Evidence Section
-    'evidence-title': 'Soutenu par la recherche et l\'expertise',
-    'evidence-description': 'Vue&Do s\'appuie sur des décennies de pratiques fondées sur des preuves en matière de supports visuels et d\'emplois du temps d\'activités pour les apprenants neuro-atypiques.',
+    'evidence-title': 'Basé sur la science, propulsé par l\'imagination',
+    'evidence-description': 'Ce n\'est pas juste une appli fun - c\'est construit sur 25+ ans de recherche montrant que les supports visuels fonctionnent. On les a juste rendus beaucoup plus excitants.',
     'stat-research-value': '25+',
     'stat-research-label': 'Années de recherche',
     'stat-studies-value': '15+',
     'stat-studies-label': 'Études évaluées par les pairs',
     'stat-frameworks-value': '3',
-    'stat-frameworks-label': 'Cadres fondés sur des preuves',
-    'evidence-research-subtitle': 'Ce que montre la recherche',
-    'evidence-list-1': 'Les emplois du temps visuels améliorent considérablement l\'achèvement des tâches et réduisent les comportements problématiques chez les enfants atteints de troubles du spectre autistique (SAGE, 2024)',
-    'evidence-list-2': 'Les emplois du temps d\'activités numériques montrent des résultats prometteurs pour accroître l\'indépendance dans les activités de la vie quotidienne (PubMed, 2025)',
-    'evidence-list-3': 'Supports visuels recommandés par la HAS (Haute Autorité de Santé) et la méthodologie TEACCH pour l\'accompagnement de l\'autisme',
-    'evidence-list-4': 'Les supports visuels personnalisés augmentent l\'engagement et les comportements axés sur les tâches dans les contextes éducatifs et à domicile',
-    'evidence-frameworks-subtitle': 'Construit sur des cadres éprouvés',
+    'stat-frameworks-label': 'Méthodologies éprouvées',
+    'evidence-research-subtitle': 'La science derrière le fun',
+    'evidence-list-1': 'Les emplois du temps visuels améliorent spectaculairement l\'achèvement des tâches et réduisent les comportements difficiles (SAGE, 2024) - on les a rendus irrésistiblement engageants',
+    'evidence-list-2': 'Les calendriers d\'activités numériques augmentent l\'indépendance dans les routines quotidiennes (PubMed, 2025) - notre personnalisation IA les propulse au niveau supérieur',
+    'evidence-list-3': 'Supports visuels recommandés par les autorités de santé (HAS) et la méthodologie TEACCH - particulièrement puissants pour les enfants avec TDAH et autisme',
+    'evidence-list-4': 'Les visuels personnalisés boostent l\'engagement et les comportements axés sur la tâche dans tous les environnements d\'apprentissage - et ils marchent pour TOUS les enfants, pas juste certains',
+    'evidence-frameworks-subtitle': 'Construit sur des fondations éprouvées',
     'framework-teacch': 'TEACCH',
-    'framework-teacch-desc': 'Approche d\'enseignement structuré',
+    'framework-teacch-desc': 'Enseignement visuel structuré',
     'framework-has': 'Recommandations HAS',
-    'framework-has-desc': 'Normes de l\'autorité sanitaire française',
+    'framework-has-desc': 'Standards basés sur les preuves',
     'framework-aba': 'Principes ABA',
-    'framework-aba-desc': 'Analyse appliquée du comportement',
+    'framework-aba-desc': 'Renforcement positif',
 
     // Benefits Section
-    'benefits-title': 'Avantages pour toute la famille',
-    'benefit-children-title': 'Pour les enfants',
-    'benefit-children-1': 'Anxiété réduite autour des transitions quotidiennes',
-    'benefit-children-2': 'Indépendance et confiance accrues',
-    'benefit-children-3': 'Façon amusante et engageante d\'apprendre les routines',
-    'benefit-children-4': 'Des attentes claires réduisent la frustration',
-    'benefit-parents-title': 'Pour les parents et aidants',
-    'benefit-parents-1': 'Routines du matin et du coucher plus fluides',
-    'benefit-parents-2': 'Moins de stress pendant les transitions',
-    'benefit-parents-3': 'Facile à créer et personnaliser les routines',
-    'benefit-parents-4': 'Approche cohérente entre les aidants',
-    'benefit-professionals-title': 'Pour les professionnels',
-    'benefit-professionals-1': 'Outil d\'intervention fondé sur des preuves',
-    'benefit-professionals-2': 'Soutien cohérent dans tous les contextes',
-    'benefit-professionals-3': 'Engagement familial collaboratif',
-    'benefit-professionals-4': 'Suivre les progrès et l\'adaptation',
-    'benefit-household-title': 'Pour le foyer',
-    'benefit-household-1': 'Rythmes quotidiens plus paisibles',
-    'benefit-household-2': 'Meilleure gestion du temps',
-    'benefit-household-3': 'Conflits et crises réduits',
-    'benefit-household-4': 'Célébrer ensemble les petites victoires',
+    'benefits-title': 'Pourquoi les familles adorent Vue&Do',
+    'benefit-children-title': 'Enfants',
+    'benefit-children-1': 'Les routines deviennent des aventures, pas des corvées',
+    'benefit-children-2': 'Construire l\'autonomie avec des quêtes visuelles',
+    'benefit-children-3': 'Se voir comme des super-héros capables',
+    'benefit-children-4': 'Célébrer les victoires avec des animations épiques',
+    'benefit-parents-title': 'Parents & Aidants',
+    'benefit-parents-1': 'Matins et couchers sans les batailles',
+    'benefit-parents-2': 'Moins de rappels, plus de coopération',
+    'benefit-parents-3': 'Créer des routines sur mesure en quelques minutes',
+    'benefit-parents-4': 'Tout le monde sur la même page, à chaque fois',
+    'benefit-professionals-title': 'Thérapeutes & Éducateurs',
+    'benefit-professionals-1': 'Outil basé sur les preuves que les enfants adorent',
+    'benefit-professionals-2': 'Support cohérent dans tous les environnements',
+    'benefit-professionals-3': 'Engager les familles dans les interventions',
+    'benefit-professionals-4': 'Suivre les progrès avec données visuelles',
+    'benefit-household-title': 'Toute la famille',
+    'benefit-household-1': 'Des matins paisibles deviennent la norme',
+    'benefit-household-2': 'Du temps pour ce qui compte vraiment',
+    'benefit-household-3': 'Remplacer les conflits par des célébrations',
+    'benefit-household-4': 'Rendre chaque petite victoire visible',
 
     // How It Works
-    'how-it-works-title': 'Comment fonctionne Vue&Do',
-    'how-it-works-description': 'Démarrer avec Vue&Do est simple. Créez des routines personnalisées en quelques minutes.',
-    'step1-title': 'Créez votre foyer',
-    'step1-description': 'Ajoutez les membres de la famille, les aidants et les professionnels. Téléchargez éventuellement des photos pour générer des avatars personnalisés dans votre style BD préféré.',
-    'step2-title': 'Créez des routines visuelles',
-    'step2-description': 'Choisissez parmi des modèles ou créez des routines personnalisées. Ajoutez des étapes avec des icônes claires, des étiquettes et des minuteurs optionnels. Chaque étape devient une vignette dans la bande dessinée quotidienne.',
-    'step3-title': 'L\'enfant utilise le mode kiosque',
-    'step3-description': 'Votre enfant suit la routine dans une interface simple en plein écran. De grands boutons "En cours" et "Terminé" avec des récompenses visuelles célèbrent chaque étape accomplie.',
-    'step4-title': 'Célébrez et développez les compétences',
-    'step4-description': 'Regardez votre enfant gagner en confiance et en autonomie. Ajustez les routines selon les besoins et célébrez les progrès ensemble avec un retour visuel engageant.',
+    'how-it-works-title': 'De la config au super-héros en quelques minutes',
+    'how-it-works-description': 'Créer des aventures de routines personnalisées est ridiculement facile.',
+    'step1-title': 'Créez votre univers familial',
+    'step1-description': 'Ajoutez les membres de la famille et uploadez optionnellement des photos. Notre IA génère des avatars style BD dans le style de votre choix - manga, super-héros, cartoon ou BD classique. Chaque personnage est unique.',
+    'step2-title': 'Construisez des quêtes de routine épiques',
+    'step2-description': 'Choisissez des templates ou créez du sur-mesure. Glissez-déposez les étapes, ajoutez icônes et minuteurs. Chaque étape devient une vignette dans la bande quotidienne d\'aventures de votre enfant.',
+    'step3-title': 'Lancez le mode kiosque',
+    'step3-description': 'Votre enfant entre dans son aventure plein écran. Boutons géants "En cours" et "Terminé". Explosions de confettis pour chaque victoire. Simple, satisfaisant, et sérieusement fun.',
+    'step4-title': 'Célébrez & évoluez',
+    'step4-description': 'Regardez l\'autonomie grandir avec chaque quête complétée. Ajustez les routines au fur et à mesure que les compétences se développent. Rendez chaque petite victoire aussi satisfaisante que battre le boss final.',
 
     // Waitlist Section
-    'waitlist-title': 'Rejoignez notre liste d\'attente bêta',
-    'waitlist-description': 'Soyez parmi les premiers à découvrir Vue&Do lors de notre lancement. Obtenez un accès anticipé, des mises à jour exclusives et aidez à façonner l\'avenir des routines visuelles neuro-inclusives.',
-    'waitlist-benefit-1': 'Accès anticipé à la version bêta',
-    'waitlist-benefit-2': 'Tarification exclusive pour les premiers adoptants',
-    'waitlist-benefit-3': 'Contribution directe aux fonctionnalités et à la conception',
-    'waitlist-benefit-4': 'Support prioritaire de notre équipe',
+    'waitlist-title': 'Rejoignez l\'aventure bêta',
+    'waitlist-description': 'Soyez parmi les premières familles à découvrir Vue&Do. Accès anticipé, tarifs spéciaux, et aidez-nous à construire l\'avenir des routines fun.',
+    'waitlist-benefit-1': 'Accès anticipé à la bêta (lancement bientôt !)',
+    'waitlist-benefit-2': 'Tarifs spéciaux pour les familles fondatrices',
+    'waitlist-benefit-3': 'Façonner les fonctionnalités avec vos retours directs',
+    'waitlist-benefit-4': 'Support VIP de notre équipe',
     'form-name-label': 'Nom',
     'form-name-placeholder': 'Votre nom',
     'form-email-label': 'Email',
@@ -263,11 +263,11 @@ const translations = {
     'form-submit': 'Rejoindre la liste d\'attente',
 
     // Footer
-    'footer-description': 'Transformer les routines quotidiennes en histoires visuelles personnalisées pour les enfants neuro-atypiques.',
+    'footer-description': 'Transformer les routines quotidiennes en aventures BD épiques avec personnalisation par IA.',
     'footer-product': 'Produit',
     'footer-features': 'Fonctionnalités',
     'footer-benefits': 'Avantages',
-    'footer-research': 'Recherche',
+    'footer-research': 'La Science',
     'footer-how': 'Comment ça marche',
     'footer-legal': 'Légal',
     'footer-privacy': 'Politique de confidentialité',
@@ -277,7 +277,7 @@ const translations = {
     'footer-contact': 'Contact',
     'footer-waitlist': 'Liste d\'attente',
     'footer-copyright': '2025 Vue&Do. Tous droits réservés.',
-    'footer-tagline': 'Fait avec soin pour les familles neuro-atypiques'
+    'footer-tagline': 'Rendre les routines fun pour chaque famille'
   }
 };
 
@@ -330,22 +330,43 @@ try {
 
 // Apply translations to all elements with data-i18n attribute
 function applyTranslations(lang) {
+  console.log('Applying translations for language:', lang);
+
   // Update all elements with data-i18n attribute
   const elements = document.querySelectorAll('[data-i18n]');
+  console.log('Found', elements.length, 'elements to translate');
+
+  let translated = 0;
+  let skipped = 0;
+
   elements.forEach(element => {
     const key = element.getAttribute('data-i18n');
 
     if (translations[lang] && translations[lang][key]) {
-      // Handle placeholder attributes
-      if (element.hasAttribute('data-i18n-placeholder')) {
-        element.setAttribute('placeholder', translations[lang][key]);
+      try {
+        // Handle placeholder attributes
+        if (element.hasAttribute('data-i18n-placeholder')) {
+          element.setAttribute('placeholder', translations[lang][key]);
+        }
+        // Handle text content for most elements
+        else if (element.tagName !== 'SELECT') {
+          element.textContent = translations[lang][key];
+        }
+        translated++;
+      } catch (error) {
+        console.error('Error translating element with key:', key, error);
+        skipped++;
       }
-      // Handle text content for most elements
-      else if (element.tagName !== 'SELECT') {
-        element.textContent = translations[lang][key];
+    } else {
+      // Keep existing content if translation not found
+      if (!translations[lang][key]) {
+        console.warn('Translation not found for key:', key, 'in language:', lang);
       }
+      skipped++;
     }
   });
+
+  console.log('Translated:', translated, 'Skipped:', skipped);
 
   // Update select options separately
   const selectOptions = document.querySelectorAll('option[data-i18n]');
@@ -360,6 +381,8 @@ function applyTranslations(lang) {
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
   });
+
+  console.log('Translation complete');
 }
 
 // Language switcher functionality

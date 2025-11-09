@@ -1103,17 +1103,7 @@ ul, ol {
    I18N LANGUAGE VISIBILITY
    ============================================ */
 
-[lang]:not([lang="en"]) {
-  display: none;
-}
-
-html[data-lang="fr"] [lang="en"] {
-  display: none;
-}
-
-html[data-lang="fr"] [lang="fr"] {
-  display: initial;
-}
+/* Language-specific content handled by JavaScript data-i18n attributes */
 
 /* ============================================
    ACCESSIBILITY
