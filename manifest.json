@@ -1,0 +1,62 @@
+{
+  "name": "Vue&Do - Visual Routines for Neuro-Diverse Children",
+  "short_name": "Vue&Do",
+  "description": "Transform daily routines into personalized visual stories. Evidence-based app for neuro-diverse children.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2196F3",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "kids", "lifestyle", "health"],
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "label": "Morning routine comic strip"
+    },
+    {
+      "src": "/images/screenshot-2.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "label": "Kiosk mode with large buttons"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Join Waitlist",
+      "short_name": "Waitlist",
+      "description": "Sign up for early access",
+      "url": "/#waitlist",
+      "icons": [
+        {
+          "src": "/images/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,23 @@
+# robots.txt for https://vuedo.app/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://vuedo.app/sitemap.xml
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
+
+# Disallow private or future sections (if any)
+# Disallow: /admin/
+# Disallow: /beta/
+
+# Allow all images
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Allow all assets
+Allow: /css/
+Allow: /js/
+Allow: /assets/

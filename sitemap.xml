@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage - English -->
+  <url>
+    <loc>https://vuedo.app/</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vuedo.app/fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuedo.app/" />
+  </url>
+
+  <!-- Homepage - French -->
+  <url>
+    <loc>https://vuedo.app/fr</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuedo.app/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://vuedo.app/fr" />
+  </url>
+
+  <!-- Features Section -->
+  <url>
+    <loc>https://vuedo.app/#features</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Benefits Section -->
+  <url>
+    <loc>https://vuedo.app/#benefits</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Evidence-Based Section -->
+  <url>
+    <loc>https://vuedo.app/#evidence</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- How It Works -->
+  <url>
+    <loc>https://vuedo.app/#how-it-works</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Waitlist -->
+  <url>
+    <loc>https://vuedo.app/#waitlist</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
