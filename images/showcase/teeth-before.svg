@@ -1,0 +1,30 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background - Rainy morning -->
+    <rect width="200" height="200" fill="#E3F2FD"/>
+    <!-- Rain drops -->
+    <path d="M20 10 L18 20 M40 15 L38 25 M60 5 L58 15 M80 20 L78 30 M100 12 L98 22 M120 8 L118 18 M140 18 L138 28"
+          stroke="#64B5F6" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Child's face with messy appearance -->
+    <circle cx="100" cy="90" r="45" fill="#FFD8A8"/>
+
+    <!-- Messy hair -->
+    <path d="M60 60 Q65 45 70 55 Q75 48 80 58 Q85 50 90 60 Q95 48 100 58 Q105 50 110 60 Q115 48 120 58 Q125 50 130 58 Q135 45 140 60"
+          fill="#5D4037" stroke="#5D4037" stroke-width="2"/>
+
+    <!-- Sleepy eyes -->
+    <ellipse cx="85" cy="85" rx="8" ry="4" fill="#333"/>
+    <ellipse cx="115" cy="85" rx="8" ry="4" fill="#333"/>
+
+    <!-- Mouth with dirty teeth -->
+    <path d="M85 105 Q100 112 115 105" stroke="#333" stroke-width="2" fill="none"/>
+    <rect x="95" y="105" width="4" height="6" fill="#8D6E63" opacity="0.6"/>
+    <rect x="101" y="105" width="4" height="6" fill="#8D6E63" opacity="0.6"/>
+
+    <!-- Toothbrush in hand (not brushing yet) -->
+    <rect x="40" y="140" width="6" height="30" rx="3" fill="#4FC3F7"/>
+    <rect x="42" y="135" width="10" height="8" rx="2" fill="#E1F5FE"/>
+
+    <!-- Time indicator -->
+    <text x="10" y="190" font-family="Arial" font-size="12" fill="#666">7:30 AM</text>
+</svg>

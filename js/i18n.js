@@ -5,51 +5,106 @@
 
 const translations = {
   en: {
+    // Beta Banner
+    'beta-banner-title': 'Beta launching Q2 2025!',
+    'beta-banner-subtitle': 'Join the waitlist for early access & special pricing',
+    'beta-banner-cta': 'Join Now',
+
     // Navigation
     'nav-features': 'Features',
+    'nav-showcase': 'See It In Action',
     'nav-benefits': 'Benefits',
     'nav-evidence': 'The Science',
     'nav-waitlist': 'Join Waitlist',
     'skip-to-content': 'Skip to main content',
 
     // Hero Section
-    'hero-title': 'Turn Everyday Routines into Epic Comic Adventures',
-    'hero-subtitle': 'AI-powered comic strips that make daily tasks actually fun. Your child becomes the superhero of their own story, completing quests from brushing teeth to bedtime.',
+    'hero-title': 'Touch the Magic, Watch It Transform',
+    'hero-subtitle': 'Living comic strips that adapt to the real world. Your child touches each panel and watches it magically transform - messy hair becomes combed, dirty smiles turn sparkly clean. Weather, time of day, and real-life context appear in every scene.',
     'cta-join-waitlist': 'Join the Waitlist',
     'cta-learn-more': 'See the Magic',
     'badge-evidence': 'Backed by Science',
     'badge-privacy': 'Privacy-First',
-    'badge-inclusive': 'Designed for Every Kid',
+    'badge-inclusive': 'Context-Aware AI',
 
     // Problem/Solution Section
-    'problem-title': 'Make Mornings Actually Fun (Yes, Really!)',
-    'problem-description': 'Every family knows the struggle: transitions are hard, routines feel boring, and kids need constant reminders. What if daily tasks were as exciting as their favorite comic books? That is exactly what we have built.',
-    'solution-predictable-title': 'Visual & Exciting',
-    'solution-predictable-text': 'See what is next in vibrant comic panels. No more "what do I do now?" - just clear, colorful step-by-step adventures that kids actually want to follow.',
-    'solution-engaging-title': 'AI-Personalized Magic',
-    'solution-engaging-text': 'This is not generic cartoons - our AI creates custom comic strips starring YOUR child. Choose from manga to superhero styles and watch their face light up seeing themselves as the main character.',
-    'solution-independent-title': 'Independence, Unlocked',
-    'solution-independent-text': 'Kids love doing things themselves when it is fun. Visual quests with celebration rewards turn "I can not" into "I did it!" moments that build real confidence.',
+    'problem-title': 'Living Comics That Understand the Real World',
+    'problem-description': 'Visual routines have helped families for decades. But what if the comic strip could see the weather outside? Know it is a school day? Transform right before your child\'s eyes when they touch it? This is the next generation of visual supports.',
+    'solution-predictable-title': 'Context-Aware Panels',
+    'solution-predictable-text': 'Rain appears in the background on rainy days. Morning sun or evening moon shows the time. School backpack appears on weekdays. The comic strip breathes with real life.',
+    'solution-engaging-title': 'Touch-Based Transformations',
+    'solution-engaging-text': 'Pure visual interaction. Your child touches the panel showing messy hair - it transforms to show combed hair. Touch the dirty teeth panel - watch it become a sparkly smile with stars and sparkles. Immediate visual feedback that celebrates completion.',
+    'solution-independent-title': 'Intelligence That Adapts',
+    'solution-independent-text': 'Our AI understands context: weather conditions, time of day, weekday vs weekend, special occasions. Every routine feels current, relevant, and connected to your child\'s actual day.',
 
     // Features Section
-    'features-title': 'Next-Level Routine Technology',
-    'features-description': 'We have combined cutting-edge AI, game design principles, and insights from families to create something totally new.',
-    'feature-ai-title': 'AI-Powered Comic Generation',
-    'feature-ai-description': 'Upload a photo, choose your style (manga, superhero, cartoon, or classic BD), and boom - personalized comic strips featuring your child as the star. Every routine becomes a visual story they will love.',
+    'features-title': 'The Future of Visual Routines',
+    'features-description': 'We have combined cutting-edge AI, real-world awareness, and evidence-based visual supports to create living comic strips that truly understand your child\'s day.',
+    'feature-ai-title': 'AI-Powered Avatar Generation',
+    'feature-ai-description': 'Upload a photo and choose from 4 unique visual styles - manga, superhero, cartoon, or classic BD. Our AI creates personalized avatars starring your child in every routine adventure.',
+    'feature-ai-meta': '4 style options available',
+    'feature-auth-title': 'Magic Link Authentication',
+    'feature-auth-description': 'No passwords to remember, ever. Simple, secure email magic links get you in instantly. Works seamlessly across all your devices.',
+    'feature-auth-meta': 'Passwordless & secure',
+    'feature-household-title': 'Family Characters in Every Panel',
+    'feature-household-description': 'Your child is the main character. Add everyone in their life - papa for morning routines, grandma for bedtime, even their favorite stuffed animal. Everyone becomes a character with AI avatars that appear throughout the comic panels.',
+    'feature-household-meta': 'Everyone becomes a character',
+    'feature-builder-title': 'Real-Time Routine Builder',
+    'feature-builder-description': 'Drag and drop from 30+ pre-built routine steps or create your own. Add icons, labels, and timers. See changes instantly as you build the perfect daily adventure.',
+    'feature-builder-meta': '30+ built-in steps',
+    'feature-rewards-title': 'Visual Rewards & Positive Reinforcement',
+    'feature-rewards-description': 'When your child completes a step, they see immediate visual celebration - stars appear, confetti falls, sparkles dance. This evidence-based positive reinforcement creates joyful associations with daily routines, making independence feel rewarding.',
+    'feature-rewards-meta': 'Stars, confetti, sparkles - pure celebration',
     'feature-kiosk-title': 'Immersive Kiosk Mode',
-    'feature-kiosk-description': 'Fullscreen, distraction-free magic. Huge, satisfying buttons. Visual feedback that pops. Simple gestures. Your child gets lost in their routine adventure, not their device.',
-    'feature-visual-title': 'Gamified Rewards & Timers',
-    'feature-visual-description': 'Visual timers make time visible (no more "5 more minutes!"). Each completed step triggers celebratory animations - confetti explosions, sparkle showers, victory stars. Positive reinforcement that actually works.',
-    'feature-offline-title': 'Offline-First PWA',
-    'feature-offline-description': 'Once created, routines work perfectly offline. No Wi-Fi? No problem. Airplane mode? Still magical. Consistent access anywhere, anytime, without internet anxiety.',
+    'feature-kiosk-description': 'Fullscreen, distraction-free interface designed for children. One-link sharing works on any device - no app needed. Touch the panel, watch it transform, celebrate with visual rewards.',
+    'feature-kiosk-meta': 'Works on any device instantly',
+    'feature-context-title': 'Living, Breathing Comics',
+    'feature-context-description': 'Weather appears in panel backgrounds. Morning sun versus evening moon. School days show backpacks, holidays show play clothes. Every scene reflects your child\'s actual day, making routines feel alive and relevant.',
+    'feature-context-meta': 'Real-world context awareness',
     'feature-privacy-title': 'Zero-Photo Storage',
-    'feature-privacy-description': 'We delete uploaded photos immediately after generating avatars. Only AI-created characters stay on our servers. Full GDPR compliance, transparent data practices, total parental control. Privacy is not optional.',
-    'feature-accessible-title': 'Inclusive by Design',
-    'feature-accessible-description': 'WCAG 2.1 AA compliant with high contrast, XXL touch targets, error-tolerant interactions, and zero audio distractions. Works beautifully for neurotypical kids AND those with ADHD, autism, dyslexia - everyone wins.',
+    'feature-privacy-description': 'Uploaded photos are deleted immediately after avatar generation. Only AI-created avatars and style preferences are stored. Full GDPR compliance with transparent data practices.',
+    'feature-privacy-meta': 'Privacy-first by design',
+
+    // Showcase Section
+    'showcase-title': 'See the Magic in Action',
+    'showcase-description': 'Real examples of how Vue&Do adapts to your child\'s world. Watch routines transform with a touch while context brings each scene to life.',
+    'showcase-callout': 'These panels are AI-generated in real-time with your child\'s face and your chosen style',
+
+    // Context Badges
+    'context-rainy': 'Rainy Morning',
+    'context-morning': '7:30 AM',
+    'context-evening': '8:00 PM',
+    'context-clear': 'Clear Night',
+    'context-sunny': 'Sunny',
+    'context-schoolday': 'School Day',
+
+    // Touch Indicator
+    'touch-label': 'Touch',
+
+    // Visual Rewards
+    'reward-label': 'Visual Celebration:',
+    'reward-example-teeth': 'Stars appear ⭐✨ + Sparkle animation',
+    'reward-example-pajamas': 'Confetti falls 🎉 + Happy animation',
+    'reward-example-breakfast': 'Stars burst ⭐ + Celebration sparkles ✨',
+
+    // Example 1: Brushing Teeth
+    'showcase-teeth-before': 'Before: Teeth need brushing',
+    'showcase-teeth-after': 'After: Sparkly clean smile!',
+    'showcase-teeth-caption': 'Morning brushing routine with real-time weather context',
+
+    // Example 2: Pajamas
+    'showcase-pajamas-before': 'Before: Still in day clothes',
+    'showcase-pajamas-after': 'After: Cozy in pajamas!',
+    'showcase-pajamas-caption': 'Bedtime routine with evening context and moon',
+
+    // Example 3: Breakfast
+    'showcase-breakfast-before': 'Before: Full breakfast plate',
+    'showcase-breakfast-after': 'After: All done, ready for school!',
+    'showcase-breakfast-caption': 'School morning breakfast with sunny weather and backpack context',
 
     // Evidence Section
-    'evidence-title': 'Backed by Science, Powered by Imagination',
-    'evidence-description': 'This is not just a fun app - it is built on 25+ years of research showing visual supports work. We just made them way more exciting.',
+    'evidence-title': 'Backed by Science, Powered by Visual Magic',
+    'evidence-description': 'This is not just innovative design - it is built on 25+ years of research showing visual supports work. We have made them intelligent, context-aware, and truly magical.',
     'stat-research-value': '25+',
     'stat-research-label': 'Years of Research',
     'stat-studies-value': '15+',
@@ -61,6 +116,7 @@ const translations = {
     'evidence-list-2': 'Digital activity schedules increase independence in daily routines (PubMed, 2025) - our AI personalization takes it to the next level',
     'evidence-list-3': 'Visual supports recommended by health authorities (HAS) and TEACCH methodology - especially powerful for kids with ADHD and autism',
     'evidence-list-4': 'Personalized visuals boost engagement and on-task behavior across all learning environments - and they work for ALL kids, not just some',
+    'evidence-list-5': 'Positive reinforcement through immediate visual feedback strengthens desired behaviors and builds motivation (ABA principles)',
     'evidence-frameworks-subtitle': 'Built on Proven Foundations',
     'framework-teacch': 'TEACCH',
     'framework-teacch-desc': 'Structured visual teaching',
@@ -72,10 +128,10 @@ const translations = {
     // Benefits Section
     'benefits-title': 'Why Families Love Vue&Do',
     'benefit-children-title': 'Kids',
-    'benefit-children-1': 'Routines become adventures, not chores',
-    'benefit-children-2': 'Build independence with visual quests',
-    'benefit-children-3': 'See themselves as capable superheroes',
-    'benefit-children-4': 'Celebrate wins with epic animations',
+    'benefit-children-1': 'Touch and watch magic transformations happen',
+    'benefit-children-2': 'Build independence with intuitive visuals',
+    'benefit-children-3': 'See themselves in living comic stories',
+    'benefit-children-4': 'Experience routines that feel alive and current',
     'benefit-parents-title': 'Parents & Caregivers',
     'benefit-parents-1': 'Mornings and bedtimes without the battles',
     'benefit-parents-2': 'Less nagging, more cooperation',
@@ -93,16 +149,18 @@ const translations = {
     'benefit-household-4': 'Make every small win visible',
 
     // How It Works
-    'how-it-works-title': 'From Setup to Superhero in Minutes',
-    'how-it-works-description': 'Creating personalized routine adventures is ridiculously easy.',
-    'step1-title': 'Create Your Family Universe',
-    'step1-description': 'Add family members and optionally upload photos. Our AI generates comic-style avatars in your chosen style - manga, superhero, cartoon, or classic BD. Each character is uniquely yours.',
-    'step2-title': 'Build Epic Routine Quests',
-    'step2-description': 'Choose templates or go custom. Drag-and-drop routine steps, add icons and timers. Each step becomes a comic panel in your child\'s daily adventure strip.',
-    'step3-title': 'Launch Kiosk Mode',
-    'step3-description': 'Your child enters their fullscreen adventure. Giant "Doing" and "Done" buttons. Confetti explosions for every win. Simple, satisfying, and seriously fun.',
-    'step4-title': 'Celebrate & Evolve',
-    'step4-description': 'Watch independence grow with every completed quest. Adjust routines as skills develop. Make every small victory feel like defeating the final boss.',
+    'how-it-works-title': 'Get Started in 3 Simple Steps',
+    'how-it-works-description': 'From signup to superhero routines in under 5 minutes. Seriously, it\'s that fast.',
+    'timeline-badge': 'Beta launching Q2 2025',
+    'step1-title': 'Create Your Child\'s Comic Universe',
+    'step1-description': 'Your child is the hero. Add papa, mama, grandma, their teddy bear (doudou), the family dog - everyone important to them becomes a character in their comic with AI avatars. Choose from 4 visual styles (manga, superhero, cartoon, classic BD).',
+    'step1-highlight': 'Everyone becomes a comic character',
+    'step2-title': 'Build Your First Routine',
+    'step2-description': 'Drag and drop from 30+ pre-built steps like "brush teeth," "get dressed," "breakfast time." Customize icons, add timers, and preview your comic strip in real-time.',
+    'step2-highlight': '30+ built-in routine steps ready to use',
+    'step3-title': 'Touch, Transform, Celebrate',
+    'step3-description': 'Your child touches each comic panel and watches it magically transform. When they complete the step, visual rewards appear - stars burst, confetti falls, sparkles dance. This positive reinforcement creates joyful associations with daily routines.',
+    'step3-highlight': 'Evidence-based positive reinforcement through visual celebration',
 
     // Waitlist Section
     'waitlist-title': 'Join the Beta Adventure',
@@ -125,7 +183,7 @@ const translations = {
     'form-submit': 'Join Waitlist',
 
     // Footer
-    'footer-description': 'Turning daily routines into epic comic adventures with AI-powered personalization.',
+    'footer-description': 'Living comic strips that transform with a touch and adapt to the real world.',
     'footer-product': 'Product',
     'footer-features': 'Features',
     'footer-benefits': 'Benefits',
@@ -138,56 +196,113 @@ const translations = {
     'footer-gdpr': 'GDPR Compliance',
     'footer-contact': 'Contact',
     'footer-waitlist': 'Join Waitlist',
+    'footer-github': 'GitHub',
+    'footer-status': 'Currently in development - Beta Q2 2025',
     'footer-copyright': '2025 Vue&Do. All rights reserved.',
-    'footer-tagline': 'Making routines fun for every family'
+    'footer-tagline': 'Visual magic that understands the real world'
   },
 
   fr: {
+    // Beta Banner
+    'beta-banner-title': 'Bêta en Q2 2025 !',
+    'beta-banner-subtitle': 'Rejoignez la liste d\'attente pour accès anticipé & tarifs spéciaux',
+    'beta-banner-cta': 'Rejoindre',
+
     // Navigation
     'nav-features': 'Fonctionnalités',
+    'nav-showcase': 'Voir en action',
     'nav-benefits': 'Avantages',
     'nav-evidence': 'La Science',
     'nav-waitlist': 'Liste d\'attente',
     'skip-to-content': 'Aller au contenu principal',
 
     // Hero Section
-    'hero-title': 'Transformez les routines en aventures BD épiques',
-    'hero-subtitle': 'Des bandes dessinées personnalisées par IA qui rendent les tâches quotidiennes vraiment fun. Votre enfant devient le super-héros de sa propre histoire, du brossage des dents au coucher.',
+    'hero-title': 'Touchez la magie, regardez-la se transformer',
+    'hero-subtitle': 'Des bandes dessinées vivantes qui s\'adaptent au monde réel. Votre enfant touche chaque vignette et la regarde se transformer magiquement - cheveux en désordre deviennent coiffés, sourire sale devient étincelant. La météo, l\'heure et le contexte réel apparaissent dans chaque scène.',
     'cta-join-waitlist': 'Rejoindre la liste d\'attente',
     'cta-learn-more': 'Voir la magie',
     'badge-evidence': 'Basé sur la science',
     'badge-privacy': 'Vie privée d\'abord',
-    'badge-inclusive': 'Pour tous les enfants',
+    'badge-inclusive': 'IA contextuelle',
 
     // Problem/Solution Section
-    'problem-title': 'Rendez les matins vraiment fun (oui, vraiment !)',
-    'problem-description': 'Toutes les familles connaissent le défi : les transitions sont difficiles, les routines sont ennuyeuses, et les enfants ont besoin de rappels constants. Et si les tâches quotidiennes étaient aussi excitantes que leurs BD préférées ? C\'est exactement ce qu\'on a créé.',
-    'solution-predictable-title': 'Visuel & Excitant',
-    'solution-predictable-text': 'Voir ce qui vient ensuite en vignettes BD colorées. Fini le "c\'est quoi après ?" - juste des aventures étape par étape claires et colorées que les enfants veulent suivre.',
-    'solution-engaging-title': 'Magie personnalisée par IA',
-    'solution-engaging-text': 'Ce ne sont pas des dessins génériques - notre IA crée des bandes dessinées sur mesure avec VOTRE enfant en vedette. Choisissez du manga au style super-héros et regardez son visage s\'illuminer en se voyant personnage principal.',
-    'solution-independent-title': 'Autonomie débloquée',
-    'solution-independent-text': 'Les enfants adorent faire les choses eux-mêmes quand c\'est amusant. Des quêtes visuelles avec des récompenses festives transforment "je peux pas" en moments "j\'ai réussi !" qui bâtissent la vraie confiance.',
+    'problem-title': 'Des BD vivantes qui comprennent le monde réel',
+    'problem-description': 'Les routines visuelles aident les familles depuis des décennies. Mais si la bande dessinée pouvait voir la météo dehors ? Savoir que c\'est un jour d\'école ? Se transformer sous les yeux de votre enfant quand il la touche ? Voici la nouvelle génération de supports visuels.',
+    'solution-predictable-title': 'Vignettes contextuelles',
+    'solution-predictable-text': 'La pluie apparaît en arrière-plan les jours pluvieux. Soleil du matin ou lune du soir montre l\'heure. Le cartable d\'école apparaît en semaine. La BD respire avec la vraie vie.',
+    'solution-engaging-title': 'Transformations au toucher',
+    'solution-engaging-text': 'Pure interaction visuelle. Votre enfant touche la vignette montrant les cheveux en désordre - elle se transforme pour montrer des cheveux coiffés. Touchez la vignette des dents sales - regardez apparaître un sourire étincelant avec étoiles et étincelles. Feedback visuel immédiat qui célèbre l\'accomplissement.',
+    'solution-independent-title': 'Intelligence qui s\'adapte',
+    'solution-independent-text': 'Notre IA comprend le contexte : conditions météo, heure du jour, semaine vs weekend, occasions spéciales. Chaque routine se sent actuelle, pertinente et connectée à la vraie journée de votre enfant.',
 
     // Features Section
-    'features-title': 'Technologie de routines nouvelle génération',
-    'features-description': 'On a combiné IA de pointe, principes de game design et insights des familles pour créer quelque chose de totalement nouveau.',
-    'feature-ai-title': 'Génération BD par IA',
-    'feature-ai-description': 'Uploadez une photo, choisissez votre style (manga, super-héros, cartoon ou BD classique), et boom - des bandes dessinées personnalisées avec votre enfant en vedette. Chaque routine devient une histoire visuelle qu\'ils vont adorer.',
+    'features-title': 'L\'avenir des routines visuelles',
+    'features-description': 'On a combiné IA de pointe, conscience du monde réel et supports visuels basés sur les preuves pour créer des bandes dessinées vivantes qui comprennent vraiment la journée de votre enfant.',
+    'feature-ai-title': 'Génération d\'avatars par IA',
+    'feature-ai-description': 'Uploadez une photo et choisissez parmi 4 styles visuels uniques - manga, super-héros, cartoon ou BD classique. Notre IA crée des avatars personnalisés avec votre enfant en vedette dans chaque aventure de routine.',
+    'feature-ai-meta': '4 styles disponibles',
+    'feature-auth-title': 'Authentification par lien magique',
+    'feature-auth-description': 'Plus jamais de mot de passe à retenir. Des liens magiques simples et sécurisés par email vous connectent instantanément. Fonctionne parfaitement sur tous vos appareils.',
+    'feature-auth-meta': 'Sans mot de passe & sécurisé',
+    'feature-household-title': 'Personnages familiers dans chaque vignette',
+    'feature-household-description': 'Votre enfant est le personnage principal. Ajoutez tous ceux qui l\'entourent - papa pour les routines du matin, mamie pour le coucher, même son doudou préféré. Tout le monde devient un personnage avec des avatars IA qui apparaissent dans les vignettes BD.',
+    'feature-household-meta': 'Tout le monde devient un personnage',
+    'feature-builder-title': 'Créateur de routines en temps réel',
+    'feature-builder-description': 'Glissez-déposez parmi 30+ étapes pré-construites ou créez les vôtres. Ajoutez icônes, labels et minuteurs. Voyez les changements instantanément en construisant l\'aventure quotidienne parfaite.',
+    'feature-builder-meta': '30+ étapes intégrées',
+    'feature-rewards-title': 'Récompenses visuelles & renforcement positif',
+    'feature-rewards-description': 'Quand votre enfant termine une étape, il voit une célébration visuelle immédiate - des étoiles apparaissent, des confettis tombent, des étincelles dansent. Ce renforcement positif basé sur les preuves crée des associations joyeuses avec les routines quotidiennes, rendant l\'autonomie gratifiante.',
+    'feature-rewards-meta': 'Étoiles, confettis, étincelles - pure célébration',
     'feature-kiosk-title': 'Mode kiosque immersif',
-    'feature-kiosk-description': 'Magie plein écran sans distraction. Boutons énormes et satisfaisants. Feedback visuel qui claque. Gestes simples. Votre enfant se perd dans son aventure de routine, pas dans son appareil.',
-    'feature-visual-title': 'Récompenses & minuteurs gamifiés',
-    'feature-visual-description': 'Les minuteurs visuels rendent le temps visible (fini "encore 5 minutes !"). Chaque étape complétée déclenche des animations festives - explosions de confettis, pluies d\'étincelles, étoiles de victoire. Renforcement positif qui marche vraiment.',
-    'feature-offline-title': 'PWA hors ligne',
-    'feature-offline-description': 'Une fois créées, les routines marchent parfaitement hors ligne. Pas de Wi-Fi ? Pas de problème. Mode avion ? Toujours magique. Accès constant n\'importe où, n\'importe quand, sans stress Internet.',
+    'feature-kiosk-description': 'Interface plein écran sans distraction conçue pour les enfants. Partage en un lien fonctionne sur n\'importe quel appareil - aucune app requise. Touchez la vignette, regardez-la se transformer, célébrez avec des récompenses visuelles.',
+    'feature-kiosk-meta': 'Fonctionne sur n\'importe quel appareil instantanément',
+    'feature-context-title': 'BD vivantes et respirantes',
+    'feature-context-description': 'La météo apparaît en arrière-plan des vignettes. Soleil du matin versus lune du soir. Les jours d\'école montrent des cartables, les vacances montrent des vêtements de jeu. Chaque scène reflète la vraie journée de votre enfant, rendant les routines vivantes et pertinentes.',
+    'feature-context-meta': 'Conscience du contexte réel',
     'feature-privacy-title': 'Zéro stockage photos',
-    'feature-privacy-description': 'On supprime les photos uploadées immédiatement après génération des avatars. Seuls les personnages créés par IA restent sur nos serveurs. Conformité RGPD totale, pratiques transparentes, contrôle parental total. La vie privée n\'est pas optionnelle.',
-    'feature-accessible-title': 'Inclusif par design',
-    'feature-accessible-description': 'Conforme WCAG 2.1 AA avec contraste élevé, cibles tactiles XXL, interactions tolérantes aux erreurs, et zéro distraction audio. Fonctionne à merveille pour les enfants neurotypiques ET ceux avec TDAH, autisme, dyslexie - tout le monde gagne.',
+    'feature-privacy-description': 'Les photos uploadées sont supprimées immédiatement après génération des avatars. Seuls les avatars créés par IA et préférences de style sont conservés. Conformité RGPD totale avec pratiques transparentes.',
+    'feature-privacy-meta': 'Vie privée d\'abord par design',
+
+    // Showcase Section
+    'showcase-title': 'Voyez la magie en action',
+    'showcase-description': 'Des exemples réels de comment Vue&Do s\'adapte au monde de votre enfant. Regardez les routines se transformer au toucher pendant que le contexte donne vie à chaque scène.',
+    'showcase-callout': 'Ces vignettes sont générées par IA en temps réel avec le visage de votre enfant et votre style choisi',
+
+    // Context Badges
+    'context-rainy': 'Matin pluvieux',
+    'context-morning': '7h30',
+    'context-evening': '20h00',
+    'context-clear': 'Nuit claire',
+    'context-sunny': 'Ensoleillé',
+    'context-schoolday': 'Jour d\'école',
+
+    // Touch Indicator
+    'touch-label': 'Toucher',
+
+    // Visual Rewards
+    'reward-label': 'Célébration visuelle :',
+    'reward-example-teeth': 'Étoiles apparaissent ⭐✨ + Animation étincelante',
+    'reward-example-pajamas': 'Confettis tombent 🎉 + Animation joyeuse',
+    'reward-example-breakfast': 'Étoiles éclatent ⭐ + Étincelles de célébration ✨',
+
+    // Example 1: Brushing Teeth
+    'showcase-teeth-before': 'Avant : Dents à brosser',
+    'showcase-teeth-after': 'Après : Sourire étincelant !',
+    'showcase-teeth-caption': 'Routine de brossage matinal avec contexte météo en temps réel',
+
+    // Example 2: Pajamas
+    'showcase-pajamas-before': 'Avant : Encore en habits du jour',
+    'showcase-pajamas-after': 'Après : Confortable en pyjama !',
+    'showcase-pajamas-caption': 'Routine du coucher avec contexte du soir et lune',
+
+    // Example 3: Breakfast
+    'showcase-breakfast-before': 'Avant : Assiette de petit-déjeuner pleine',
+    'showcase-breakfast-after': 'Après : Tout fini, prêt pour l\'école !',
+    'showcase-breakfast-caption': 'Petit-déjeuner du matin d\'école avec météo ensoleillée et contexte cartable',
 
     // Evidence Section
-    'evidence-title': 'Basé sur la science, propulsé par l\'imagination',
-    'evidence-description': 'Ce n\'est pas juste une appli fun - c\'est construit sur 25+ ans de recherche montrant que les supports visuels fonctionnent. On les a juste rendus beaucoup plus excitants.',
+    'evidence-title': 'Basé sur la science, propulsé par la magie visuelle',
+    'evidence-description': 'Ce n\'est pas juste du design innovant - c\'est construit sur 25+ ans de recherche montrant que les supports visuels fonctionnent. On les a rendus intelligents, contextuels et vraiment magiques.',
     'stat-research-value': '25+',
     'stat-research-label': 'Années de recherche',
     'stat-studies-value': '15+',
@@ -199,6 +314,7 @@ const translations = {
     'evidence-list-2': 'Les calendriers d\'activités numériques augmentent l\'indépendance dans les routines quotidiennes (PubMed, 2025) - notre personnalisation IA les propulse au niveau supérieur',
     'evidence-list-3': 'Supports visuels recommandés par les autorités de santé (HAS) et la méthodologie TEACCH - particulièrement puissants pour les enfants avec TDAH et autisme',
     'evidence-list-4': 'Les visuels personnalisés boostent l\'engagement et les comportements axés sur la tâche dans tous les environnements d\'apprentissage - et ils marchent pour TOUS les enfants, pas juste certains',
+    'evidence-list-5': 'Le renforcement positif par feedback visuel immédiat renforce les comportements souhaités et construit la motivation (principes ABA)',
     'evidence-frameworks-subtitle': 'Construit sur des fondations éprouvées',
     'framework-teacch': 'TEACCH',
     'framework-teacch-desc': 'Enseignement visuel structuré',
@@ -210,10 +326,10 @@ const translations = {
     // Benefits Section
     'benefits-title': 'Pourquoi les familles adorent Vue&Do',
     'benefit-children-title': 'Enfants',
-    'benefit-children-1': 'Les routines deviennent des aventures, pas des corvées',
-    'benefit-children-2': 'Construire l\'autonomie avec des quêtes visuelles',
-    'benefit-children-3': 'Se voir comme des super-héros capables',
-    'benefit-children-4': 'Célébrer les victoires avec des animations épiques',
+    'benefit-children-1': 'Toucher et voir les transformations magiques se produire',
+    'benefit-children-2': 'Construire l\'autonomie avec des visuels intuitifs',
+    'benefit-children-3': 'Se voir dans des histoires BD vivantes',
+    'benefit-children-4': 'Vivre des routines qui se sentent vivantes et actuelles',
     'benefit-parents-title': 'Parents & Aidants',
     'benefit-parents-1': 'Matins et couchers sans les batailles',
     'benefit-parents-2': 'Moins de rappels, plus de coopération',
@@ -231,16 +347,18 @@ const translations = {
     'benefit-household-4': 'Rendre chaque petite victoire visible',
 
     // How It Works
-    'how-it-works-title': 'De la config au super-héros en quelques minutes',
-    'how-it-works-description': 'Créer des aventures de routines personnalisées est ridiculement facile.',
-    'step1-title': 'Créez votre univers familial',
-    'step1-description': 'Ajoutez les membres de la famille et uploadez optionnellement des photos. Notre IA génère des avatars style BD dans le style de votre choix - manga, super-héros, cartoon ou BD classique. Chaque personnage est unique.',
-    'step2-title': 'Construisez des quêtes de routine épiques',
-    'step2-description': 'Choisissez des templates ou créez du sur-mesure. Glissez-déposez les étapes, ajoutez icônes et minuteurs. Chaque étape devient une vignette dans la bande quotidienne d\'aventures de votre enfant.',
-    'step3-title': 'Lancez le mode kiosque',
-    'step3-description': 'Votre enfant entre dans son aventure plein écran. Boutons géants "En cours" et "Terminé". Explosions de confettis pour chaque victoire. Simple, satisfaisant, et sérieusement fun.',
-    'step4-title': 'Célébrez & évoluez',
-    'step4-description': 'Regardez l\'autonomie grandir avec chaque quête complétée. Ajustez les routines au fur et à mesure que les compétences se développent. Rendez chaque petite victoire aussi satisfaisante que battre le boss final.',
+    'how-it-works-title': 'Démarrez en 3 étapes simples',
+    'how-it-works-description': 'De l\'inscription aux routines super-héros en moins de 5 minutes. Sérieusement, c\'est si rapide.',
+    'timeline-badge': 'Bêta en Q2 2025',
+    'step1-title': 'Créez l\'univers BD de votre enfant',
+    'step1-description': 'Votre enfant est le héros. Ajoutez papa, maman, mamie, son doudou, le chien de famille - tous ceux qui comptent pour lui deviennent des personnages dans sa BD avec des avatars IA. Choisissez parmi 4 styles visuels (manga, super-héros, cartoon, BD classique).',
+    'step1-highlight': 'Tout le monde devient un personnage',
+    'step2-title': 'Construisez votre première routine',
+    'step2-description': 'Glissez-déposez parmi 30+ étapes pré-construites comme "se brosser les dents", "s\'habiller", "petit-déjeuner". Personnalisez icônes, ajoutez minuteurs, et prévisualisez votre bande dessinée en temps réel.',
+    'step2-highlight': '30+ étapes de routine prêtes à utiliser',
+    'step3-title': 'Toucher, transformer, célébrer',
+    'step3-description': 'Votre enfant touche chaque vignette BD et la regarde se transformer magiquement. Quand il termine l\'étape, des récompenses visuelles apparaissent - des étoiles éclatent, des confettis tombent, des étincelles dansent. Ce renforcement positif crée des associations joyeuses avec les routines quotidiennes.',
+    'step3-highlight': 'Renforcement positif basé sur les preuves par célébration visuelle',
 
     // Waitlist Section
     'waitlist-title': 'Rejoignez l\'aventure bêta',
@@ -263,7 +381,7 @@ const translations = {
     'form-submit': 'Rejoindre la liste d\'attente',
 
     // Footer
-    'footer-description': 'Transformer les routines quotidiennes en aventures BD épiques avec personnalisation par IA.',
+    'footer-description': 'Bandes dessinées vivantes qui se transforment au toucher et s\'adaptent au monde réel.',
     'footer-product': 'Produit',
     'footer-features': 'Fonctionnalités',
     'footer-benefits': 'Avantages',
@@ -276,8 +394,10 @@ const translations = {
     'footer-gdpr': 'Conformité RGPD',
     'footer-contact': 'Contact',
     'footer-waitlist': 'Liste d\'attente',
+    'footer-github': 'GitHub',
+    'footer-status': 'Actuellement en développement - Bêta Q2 2025',
     'footer-copyright': '2025 Vue&Do. Tous droits réservés.',
-    'footer-tagline': 'Rendre les routines fun pour chaque famille'
+    'footer-tagline': 'Magie visuelle qui comprend le monde réel'
   }
 };
 
