@@ -312,25 +312,39 @@ function getInitialLanguage() {
 
 let currentLang = getInitialLanguage();
 
-// Set initial language
-document.documentElement.setAttribute('data-lang', currentLang);
-document.documentElement.setAttribute('lang', currentLang);
+// Set initial language (only if document is ready)
+if (document.documentElement) {
+  document.documentElement.setAttribute('data-lang', currentLang);
+  document.documentElement.setAttribute('lang', currentLang);
+}
 
-// Clean up URL if lang parameter exists
-if (window.location.search.includes('lang=')) {
-  const url = new URL(window.location);
-  url.searchParams.delete('lang');
-  window.history.replaceState({}, '', url);
+// Clean up URL if lang parameter exists (safely)
+try {
+  if (window.location.search.includes('lang=') && window.location.protocol !== 'file:') {
+    const url = new URL(window.location);
+    url.searchParams.delete('lang');
+    window.history.replaceState({}, '', url);
+  }
+} catch (e) {
+  // Ignore URL cleanup errors (e.g., file:// protocol)
+  console.log('URL cleanup skipped:', e.message);
 }
 
 // Apply translations to all elements with data-i18n attribute
 function applyTranslations(lang) {
+  // Show/hide language-specific content spans
+  document.querySelectorAll('[lang="en"]').forEach(el => {
+    el.hidden = (lang !== 'en');
+  });
+  document.querySelectorAll('[lang="fr"]').forEach(el => {
+    el.hidden = (lang !== 'fr');
+  });
+
+  // Update placeholders
   const elements = document.querySelectorAll('[data-i18n]');
   elements.forEach(element => {
     const key = element.getAttribute('data-i18n');
     if (translations[lang] && translations[lang][key]) {
-      // For elements with lang-specific children, we handle via CSS
-      // For placeholders, update them
       if (element.hasAttribute('data-i18n-placeholder')) {
         element.setAttribute('placeholder', translations[lang][key]);
       }
