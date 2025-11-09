@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i18n Test - Vue&Do</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1976D2;
+        }
+        .lang-buttons {
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+            background: #1976D2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #1565C0;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .success {
+            background: #E8F5E9;
+            color: #2E7D32;
+        }
+        .error {
+            background: #FFEBEE;
+            color: #C62828;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vue&Do i18n Test Page</h1>
+
+    <div class="test-section">
+        <h2>Language Controls</h2>
+        <div class="lang-buttons">
+            <button class="lang-btn" data-lang="en">English</button>
+            <button class="lang-btn" data-lang="fr">Français</button>
+        </div>
+        <p>Current Language: <strong id="current-lang"></strong></p>
+    </div>
+
+    <div class="test-section">
+        <h2>Translation Tests</h2>
+        <div id="test-results"></div>
+
+        <h3>Sample Translations:</h3>
+        <p><strong>Hero Title:</strong> <span data-i18n="hero-title"></span></p>
+        <p><strong>CTA Button:</strong> <span data-i18n="cta-join-waitlist"></span></p>
+        <p><strong>Feature Title:</strong> <span data-i18n="feature-ai-title"></span></p>
+        <p><strong>Footer:</strong> <span data-i18n="footer-copyright"></span></p>
+    </div>
+
+    <div class="test-section">
+        <h2>Form Placeholder Tests</h2>
+        <label>Name: <input type="text" data-i18n-placeholder="form-name-placeholder" placeholder="Your name"></label><br><br>
+        <label>Email: <input type="email" data-i18n-placeholder="form-email-placeholder" placeholder="your.email@example.com"></label>
+    </div>
+
+    <script src="/js/i18n.js"></script>
+    <script>
+        // Display current language
+        document.getElementById('current-lang').textContent = document.documentElement.getAttribute('lang');
+
+        // Test translations
+        function runTests() {
+            const results = document.getElementById('test-results');
+            let html = '<h4>Test Results:</h4>';
+            let allPassed = true;
+
+            // Test 1: Check if translations object exists
+            if (typeof translations !== 'undefined') {
+                html += '<div class="status success">✓ Translations object loaded</div>';
+            } else {
+                html += '<div class="status error">✗ Translations object not found</div>';
+                allPassed = false;
+            }
+
+            // Test 2: Check if English translations exist
+            if (translations.en && Object.keys(translations.en).length > 0) {
+                html += '<div class="status success">✓ English translations loaded (' + Object.keys(translations.en).length + ' keys)</div>';
+            } else {
+                html += '<div class="status error">✗ English translations missing</div>';
+                allPassed = false;
+            }
+
+            // Test 3: Check if French translations exist
+            if (translations.fr && Object.keys(translations.fr).length > 0) {
+                html += '<div class="status success">✓ French translations loaded (' + Object.keys(translations.fr).length + ' keys)</div>';
+            } else {
+                html += '<div class="status error">✗ French translations missing</div>';
+                allPassed = false;
+            }
+
+            // Test 4: Check if translations are applied
+            const heroTitle = document.querySelector('[data-i18n="hero-title"]');
+            if (heroTitle && heroTitle.textContent.trim().length > 0) {
+                html += '<div class="status success">✓ Translations applied to DOM</div>';
+            } else {
+                html += '<div class="status error">✗ Translations not applied to DOM</div>';
+                allPassed = false;
+            }
+
+            // Test 5: Check language switcher
+            const langBtns = document.querySelectorAll('.lang-btn');
+            if (langBtns.length > 0) {
+                html += '<div class="status success">✓ Language switcher buttons found</div>';
+            } else {
+                html += '<div class="status error">✗ Language switcher buttons not found</div>';
+                allPassed = false;
+            }
+
+            if (allPassed) {
+                html += '<div class="status success"><strong>All tests passed! ✓</strong></div>';
+            } else {
+                html += '<div class="status error"><strong>Some tests failed ✗</strong></div>';
+            }
+
+            results.innerHTML = html;
+        }
+
+        // Run tests after a short delay to ensure everything is loaded
+        setTimeout(runTests, 100);
+
+        // Update current language display on switch
+        const originalSwitchLanguage = window.switchLanguage;
+        window.switchLanguage = function(lang) {
+            originalSwitchLanguage(lang);
+            document.getElementById('current-lang').textContent = lang;
+        };
+    </script>
+</body>
+</html>
