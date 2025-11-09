@@ -123,22 +123,34 @@ Changes will be live in 1-2 minutes.
 
 ### Local Testing
 
-You can test the website locally using any static file server:
+⚠️ **IMPORTANT**: Do NOT open `index.html` directly in your browser using `file://` protocol. Modern web features (localStorage, fetch, etc.) won't work properly.
 
-**Option 1: Python**
+Instead, always use a local web server:
+
+**Option 1: Python (Recommended - Pre-installed on most systems)**
 ```bash
 cd /home/dam/VueDo/website
 python3 -m http.server 8000
 # Visit http://localhost:8000
 ```
 
-**Option 2: Node.js (http-server)**
+**Option 2: Node.js**
 ```bash
-npx http-server /home/dam/VueDo/website -p 8000
+cd /home/dam/VueDo/website
+npx serve
+# or
+npx http-server -p 8000
 # Visit http://localhost:8000
 ```
 
-**Option 3: VS Code Live Server**
+**Option 3: PHP**
+```bash
+cd /home/dam/VueDo/website
+php -S localhost:8000
+# Visit http://localhost:8000
+```
+
+**Option 4: VS Code Live Server**
 - Install "Live Server" extension
 - Right-click `index.html` > "Open with Live Server"
 
